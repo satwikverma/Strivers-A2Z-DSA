@@ -1,0 +1,14 @@
+// These are basic data types used to store different types of data.
+
+//     Data Type              Size                             Range
+
+    1. boolean                1 bit                            True or False
+    2. byte                   1 bytes                         -2^7    to  -2^7  - 1
+    3. short                  2 bytes                         -2^15   to  -2^15 - 1
+    4. int		      4 bytes   		      -2^31   to  -2^31 - 1
+    5. long                   8 bytes                         -2^63   to  -2^63 - 1
+    6. float                  4 bytes                          6 - 7 decimal digits
+    7. double	              8 bytes			       15    decimal digits
+    8. char                   2 bytes                          0      to   2^16 - 1
+
+
