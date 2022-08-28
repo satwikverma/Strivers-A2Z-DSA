@@ -18,5 +18,7 @@ class Input_Scanner {
         // Float input
         float f = sc.nextFloat();
         System.out.println("Entered float value is : " + f);
+
+        sc.close();
     }
 }
