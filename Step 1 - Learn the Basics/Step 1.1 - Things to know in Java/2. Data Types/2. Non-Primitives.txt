@@ -1,0 +1,22 @@
+// Non-Primitive Data Types in JAVA
+
+   Non-Primitive data types are objects of classes , the classes can either be system defined or
+   they can be user defined.
+
+// Example (Non-Primitive data type as object of user defined class)
+
+// This is a user defined class
+
+   class Point {
+	int x;
+	int y;
+   }
+
+   class Test {
+   public static void main(String[] args) {
+	Point p = new Point();              // Creating object of user defined class ie. NP Data Type
+	p.x = 10;
+	p.y = 20;
+	System.out.println(p.x + " " + p.y);
+	}
+   }
