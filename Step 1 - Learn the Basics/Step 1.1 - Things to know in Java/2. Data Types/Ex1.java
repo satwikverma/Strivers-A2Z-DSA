@@ -17,3 +17,5 @@ public class Ex1 {
         System.out.println(p1.x + " " + p2.x);
     }
 };
+
+// Output :      30 30
