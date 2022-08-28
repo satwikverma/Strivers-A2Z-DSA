@@ -1,0 +1,18 @@
+// Primitives                                   Non Primitives
+
+ 1.Primitive data types are normal            1.NP's are references ie. they store  
+   variables.                                   reference to the memory location where
+                                                this object is stored. (See Ex-1)
+
+ 2.They are stored in stack memory.           2.They are stored dynamically on heap memory
+   Stack memory is used for function            and we get reference to this dynamically allocated
+   calls and it stores local data of            memory in a reference variable.
+   the function. And these primitives           Note - We use "new" operator to create
+   are stored there in function calls                  memory for NP data types. Without
+   ie. the local variables.                            using "new" operator , its just a
+                                                       reference variable. (See Ex-2)
+
+ 3.They should be initialized.                3.They have default values when not initialized.
+   When we try to access their value            Eg- Integer (0) , Boolean (false) , Float (0.0)
+   without initialization, we get a
+   compiler error.
