@@ -10,7 +10,7 @@
    the function. And these primitives           Note - We use "new" operator to create
    are stored there in function calls                  memory for NP data types. Without
    ie. the local variables.                            using "new" operator , its just a
-                                                       reference variable. (See Ex-2)
+                                                       reference variable. (See Ex-1)
 
  3.They should be initialized.                3.They have default values when not initialized.
    When we try to access their value            Eg- Integer (0) , Boolean (false) , Float (0.0)
