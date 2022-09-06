@@ -77,3 +77,32 @@ Array can be iterated simply through loops and elements can be accessed using in
  -> Dynamic Size (ArrayList , Vector)
 
 -------------------------------------------------------------------------
+
+// Multidimensional Arrays declaration and initialization
+
+1. Simple 2-D array declaration
+
+int m=2 , n=3 ;
+int arr[][] = new int[m][n] ;
+
+for(int i=0 ; i<arr.length ; i++) {
+	for(int j=0 ; j<arr[i].length ; j++) {
+
+		// input or print something
+
+		}
+	}
+
+2. Jagged 2-D array (User specified sizes of each array inside array object)
+
+int m=3 ;
+int arr[][] = new int[m][];
+
+for(int i=0 ; i<arr.length ; i++) {
+	arr[i] = new int[i+1];     // Declaring and defining size of array at index i
+	
+	for(int j=0 ; j<arr[i].length ; j++) {
+		arr[i][j] = i ;    // Assigning any value
+		// Some code
+		}
+	}
