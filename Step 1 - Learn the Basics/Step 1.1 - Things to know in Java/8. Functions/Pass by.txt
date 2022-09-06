@@ -1,0 +1,2 @@
+1. Primitives are passed by value.
+2. Non-Primitives are passed by references.

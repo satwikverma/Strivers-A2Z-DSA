@@ -1,0 +1,79 @@
+// Main things for any data structure
+1. Declaration
+2. Initialization
+3. Iteration
+
+// Array Declaration
+
+1. int[] a = new int[size] ;
+2. int a[] = new int[size] ;
+
+// Array Initialization
+
+1. If values to store are known
+
+// Way-1
+
+int[] a = new int[3] ;
+a[0] = 10 ;
+a[1] = 20 ;
+a[2] = 30 ;               // 10 20 30    <- Array after initialization
+
+// Way-2
+
+int[] a = {10,20,30} ;
+
+
+2. If values to store comes from a user input or a formula
+
+int[] a = new int[3] ;
+int x = 10 ;
+
+for(int i=0; i < a.length ; a++) {
+	a[i] = x ;
+	x += 10 ;
+	}
+
+// Array Iteration
+
+Array can be iterated simply through loops and elements can be accessed using indexes.
+
+-------------------------------------------------------------------------
+
+// Important things about arrays
+
+1. Uninitialized arrays of int data type have the default value 0 at every index. Same thing for uninitialized array of every data type.
+
+2. Primitives are stored at contiguous memory locations.
+
+3. References of non-primitives are stored at contiguous memory locations.
+
+-------------------------------------------------------------------------
+
+// Advantages of Array
+
+1. Random Access
+2. Cache Friendly
+
+-------------------------------------------------------------------------
+
+// Disadvantages of Array
+
+1. Insertions and deletions are slow.
+2. Serach is also slow when array is unsorted.
+
+-------------------------------------------------------------------------
+
+// Types of array
+
+1. On basis of dimensions
+
+ -> One Dimensional
+ -> Multi Dimensional
+
+2. On basis of size
+
+ -> Fixed Size
+ -> Dynamic Size (ArrayList , Vector)
+
+-------------------------------------------------------------------------
